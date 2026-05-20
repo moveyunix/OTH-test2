@@ -935,6 +935,204 @@
         transform: scale(0.88);
       }
     }
+
+    /* ========== Linux Foundation style color adjustment only ========== */
+    /* 内容、文字、HTML结构统统不动，只覆盖配色 */
+
+    :root {
+      --blue: #5b21e8;
+      --blue-dark: #202020;
+      --purple: #5b21e8;
+      --purple-soft: #ec008c;
+      --line: #e5e7eb;
+    }
+
+    .topbar {
+      background: #5b21e8;
+      border-bottom-color: #5b21e8;
+      color: #ffffff;
+    }
+
+    .topbar a {
+      color: #ffffff;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    header {
+      background: #202020;
+      border-bottom-color: #202020;
+    }
+
+    header.scrolled {
+      background: #202020;
+      border-color: #202020;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+    }
+
+    .brand,
+    .nav-links,
+    .nav-links a {
+      color: #ffffff !important;
+    }
+
+    .nav-links a:hover {
+      color: #ec008c !important;
+    }
+
+    .brand-mark {
+      background: #ffffff;
+      color: #202020;
+      box-shadow: none;
+    }
+
+    .lang-switch {
+      background: transparent;
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    .lang-switch button {
+      color: #ffffff;
+    }
+
+    .lang-switch button.active {
+      background: #ffffff;
+      color: #202020;
+    }
+
+    .menu-toggle {
+      background: transparent;
+      border-color: rgba(255, 255, 255, 0.35);
+      color: #ffffff;
+    }
+
+    .btn-primary {
+      background: #ec008c;
+      color: #ffffff;
+      box-shadow: none;
+    }
+
+    .btn-primary:hover {
+      background: #ff149f;
+      box-shadow: 0 12px 28px rgba(236, 0, 140, 0.3);
+    }
+
+    .btn-outline {
+      color: #202020;
+      border-color: #5b21e8;
+      background: #ffffff;
+    }
+
+    .btn-outline:hover {
+      color: #ffffff;
+      border-color: #5b21e8;
+      background: #5b21e8;
+    }
+
+    .title,
+    .product-content h3,
+    .card h3,
+    .partners-head h2,
+    h2[style] {
+      color: #202020 !important;
+    }
+
+    .badge {
+      border-color: #5b21e8;
+      background: #f4f0ff;
+      color: #202020;
+    }
+
+    .hero-highlight,
+    .product-kicker,
+    .product-slogan {
+      color: #ec008c;
+    }
+
+    .card .icon,
+    .product-feature-icon,
+    .step .num {
+      background: linear-gradient(135deg, #5b21e8 0%, #ec008c 100%);
+    }
+
+    .product-panel {
+      background: #202020;
+      color: #ffffff;
+      border-left-color: #2f2f2f;
+    }
+
+    .product-panel-header {
+      background: #2b2b2b;
+      border-color: #3a3a3a;
+    }
+
+    .product-panel-header span {
+      background: #ec008c;
+    }
+
+    .product-flow {
+      background: #202020;
+      border-color: #3a3a3a;
+    }
+
+    .flow-item {
+      background: #2b2b2b;
+      border-color: #4b4b4b;
+      color: #ffffff;
+    }
+
+    .flow-item i {
+      color: #ec008c;
+    }
+
+    .flow-arrow {
+      color: #5b21e8;
+    }
+
+    footer {
+      background: #202020;
+      border-top-color: #202020;
+    }
+
+    footer .brand,
+    footer .footer-title {
+      color: #ffffff !important;
+    }
+
+    footer .footer-text,
+    footer .footer-links,
+    footer .footer-links a {
+      color: #d8d8d8;
+    }
+
+    footer .footer-links a:hover {
+      color: #ec008c;
+    }
+
+    footer .socials a {
+      background: transparent;
+      border-color: #555555;
+      color: #ffffff;
+    }
+
+    footer .socials a:hover {
+      background: #ec008c;
+      border-color: #ec008c;
+      color: #ffffff;
+    }
+
+    footer .copyright,
+    .copyright {
+      border-top-color: #3a3a3a;
+      color: #bdbdbd;
+    }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        background: #202020;
+        border-bottom-color: #333333;
+      }
+    }
   </style>
 </head>
 <body>
